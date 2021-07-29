@@ -1,7 +1,9 @@
 {
   "ids": {
     "Todo": 7,
-    "TodoList": 5
+    "TodoList": 5,
+    "User": 3,
+    "UserCredentials": 3
   },
   "models": {
     "Todo": {
@@ -17,6 +19,14 @@
       "2": "{\"title\":\"My daily chores\",\"color\":\"red\",\"id\":2}",
       "3": "{\"title\":\"Second Todo task created after creating controllers for TodoList\",\"id\":3}",
       "4": "{\"title\":\"Reverted commit\",\"id\":4}"
+    },
+    "User": {
+      "e1816e39-ef2d-4b4b-979b-93390109a500": "{\"id\":\"e1816e39-ef2d-4b4b-979b-93390109a500\",\"email\":\"olayeni@betterchalk.com\"}",
+      "038e2ff1-1b69-4575-bfa5-43bfcd413a37": "{\"id\":\"038e2ff1-1b69-4575-bfa5-43bfcd413a37\",\"email\":\"olayeni@betterchalk.com\"}"
+    },
+    "UserCredentials": {
+      "2b48d887-42fb-41ee-addc-ed72311fab76": "{\"id\":\"2b48d887-42fb-41ee-addc-ed72311fab76\",\"password\":\"$2a$10$n2Fv7cvFZl2EY/oNlp4kyOpTTcxOjdMuVNnEaxMuHL3szayw7nlQq\",\"userId\":\"e1816e39-ef2d-4b4b-979b-93390109a500\"}",
+      "526dca82-7483-49ad-8009-6e1b7152c3d9": "{\"id\":\"526dca82-7483-49ad-8009-6e1b7152c3d9\",\"password\":\"$2a$10$Vj2pgUGv3WOXSXNOB1siFunsgmpd4EVAsNjKCYB.MJQi5IutPwvsu\",\"userId\":\"038e2ff1-1b69-4575-bfa5-43bfcd413a37\"}"
     }
   }
 }
